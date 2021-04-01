@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:color="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel ="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+<iframe src="header.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+
+<section>
+    <div class="container">
+        <div style="text-align:center">
+            <h2>Formular de contact </h2>
+
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="img/h1.jpg" style="width:100%">
+            </div>
+            <div class="column">
+                <form action="/action_page.php">
+                    <label for="fname">Nume</label>
+                    <input type="text" id="fname" name="firstname">
+                    <label for="lname">Prenume</label>
+                    <input type="text" id="lname" name="lastname" >
+                    <label for="subject">Subiect</label>
+                    <textarea id="subject" name="subject" style="height:170px"></textarea>
+                   <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+<!--    <div>-->
+<!--        <table class="tabelfffff">-->
+<!--            <tr>-->
+<!--                <td> <i class="fa fa-phone"></i>-->
+<!--                    <p>Telefon:+40 0262 319.569 / +40 754 852.736</p>-->
+<!--                </td>-->
+<!--            </tr>-->
+
+<!--        </table>-->
+
+<!--    </div>-->
+
+
+
+
+<div>
+    <table class="contact">
+        <tr>
+            <td> <i class="fa fa-phone"  style="font-size:48px;color:white"></i>
+                <p>Telefon:+40 0262 319.569 / +40 754 852.736</p>
+            </td>
+        </tr>
+
+    </table>
+    <table class="contact" >
+        <tr>
+            <td>
+                <i class="fa fa-map-marker" style="font-size:48px;color:white"></i>
+                <p>Str. Avram Iancu nr 49</p>
+            </td>
+        </tr>
+
+    </table>
+    <table class="contact">
+        <tr>
+            <td>
+                <i class="fa fa-clock-o" style="font-size:48px;color:white"></i>
+                <p>L - J: 08:00 - 18:00
+                V: 08:00 - 15:00</p></td>
+        </tr>
+
+    </table>
+</div>
+
+</section>
+
+<iframe src="footer.html" onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"></iframe>
+
+</body>
+</html>
